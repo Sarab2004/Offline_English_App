@@ -1,0 +1,98 @@
+[
+  {
+    "id": "eco-1",
+    "category": "economics",
+    "term_en": "Inflation",
+    "definitions_en": [
+      "A general increase in prices over time",
+      "Reduction in purchasing power",
+      "Often measured by CPI"
+    ],
+    "examples": [
+      {
+        "en": "Inflation affects purchasing power.",
+        "fa": "تورم بر قدرت خرید تأثیر می‌گذارد."
+      },
+      {
+        "en": "Central banks target inflation.",
+        "fa": "بانک‌های مرکزی تورم را هدف‌گذاری می‌کنند."
+      },
+      {
+        "en": "High inflation distorts planning.",
+        "fa": "تورم بالا برنامه‌ریزی را مختل می‌کند."
+      }
+    ]
+  },
+  {
+    "id": "eco-2",
+    "category": "economics",
+    "term_en": "Opportunity Cost",
+    "definitions_en": [
+      "Value of the next best alternative",
+      "Trade-off principle",
+      "Core concept in decision-making"
+    ],
+    "examples": [
+      {
+        "en": "Opportunity cost guides resource allocation.",
+        "fa": "هزینه فرصت تخصیص منابع را هدایت می‌کند."
+      },
+      {
+        "en": "Choosing A implies losing B.",
+        "fa": "انتخاب A به معنی از دست دادن B است."
+      },
+      {
+        "en": "Managers assess opportunity costs.",
+        "fa": "مدیران هزینه‌های فرصت را ارزیابی می‌کنند."
+      }
+    ]
+  },
+  {
+    "id": "cp-1",
+    "category": "control-project",
+    "term_en": "Critical Path",
+    "definitions_en": [
+      "Longest sequence determining project duration",
+      "Zero total float",
+      "Drives finish date"
+    ],
+    "examples": [
+      {
+        "en": "Delays on critical path delay the project.",
+        "fa": "تأخیر در مسیر بحرانی، پروژه را به تأخیر می‌اندازد."
+      },
+      {
+        "en": "CPM identifies the critical path.",
+        "fa": "روش CPM مسیر بحرانی را مشخص می‌کند."
+      },
+      {
+        "en": "Shortening critical tasks shortens duration.",
+        "fa": "کاهش مدت فعالیت‌های بحرانی، مدت پروژه را کم می‌کند."
+      }
+    ]
+  },
+  {
+    "id": "cp-2",
+    "category": "control-project",
+    "term_en": "Float (Slack)",
+    "definitions_en": [
+      "Time a task can be delayed",
+      "Difference between LS and ES",
+      "Not on critical path"
+    ],
+    "examples": [
+      {
+        "en": "Noncritical tasks may have float.",
+        "fa": "فعالیت‌های غیر بحرانی ممکن است شناوری داشته باشند."
+      },
+      {
+        "en": "Managing float reduces risk.",
+        "fa": "مدیریت شناوری ریسک را کاهش می‌دهد."
+      },
+      {
+        "en": "Zero float implies critical.",
+        "fa": "شناوری صفر یعنی بحرانی بودن."
+      }
+    ]
+  }
+]

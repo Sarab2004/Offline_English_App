@@ -1,0 +1,62 @@
+:root {
+  /* Backgrounds */
+  --bg-primary:#F7FAFC;
+  --bg-surface:#FFFFFF;
+  --bg-muted:#F8F9FA;
+
+  /* Text */
+  --text-primary:#111827;
+  --text-secondary:#4B5563;
+  --text-muted:#9CA3AF;
+
+  /* Brand */
+  --primary:#3B82F6;
+  --primary-hover:#2563EB;
+  --primary-subtle:#DBEAFE;
+  --accent:#0EA5A4;
+  --accent-hover:#0C8E8D;
+  --accent-subtle:#CCFBF1;
+
+  /* State */
+  --success:#16A34A;
+  --warning:#F59E0B;
+  --danger:#DC2626;
+  --info:#0284C7;
+
+  /* Lines */
+  --border:#E5E7EB;
+  --divider:#EEF2F7;
+  --focus:#93C5FD;
+
+  /* Typography scale */
+  --text-xs:12px;
+  --text-sm:14px;
+  --text-base:16px;
+  --text-lg:18px;
+  --text-xl:20px;
+  --text-2xl:24px;
+  --text-3xl:30px;
+  --text-4xl:36px;
+  --font-normal:400;
+  --font-medium:500;
+  --font-semibold:600;
+  --font-bold:700;
+}
+
+:root[data-theme="dark"] {
+  --bg-primary:#0F172A;
+  --bg-surface:#1E293B;
+  --bg-muted:#1E293B;
+  --text-primary:#F8FAFC;
+  --text-secondary:#CBD5E1;
+  --text-muted:#94A3B8;
+  --border:#334155;
+  --divider:#1F2937;
+  --primary:#60A5FA;
+  --primary-hover:#3B82F6;
+  --primary-subtle:#1E3A8A33;
+  --accent:#2DD4BF;
+  --accent-hover:#14B8A6;
+  --accent-subtle:#0F766E33;
+  --focus:#2563EB;
+}
