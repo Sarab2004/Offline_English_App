@@ -1,0 +1,54 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.topbar__inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 0.75rem;
+}
+
+.topbar__back,
+.topbar__theme {
+  min-width: 44px;
+}
+
+.topbar__spacer {
+  width: 44px;
+  height: 44px;
+  border-radius: 0.75rem;
+}
+
+.topbar__title {
+  margin: 0;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.topbar__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.topbar__actions > * {
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .topbar__inner {
+    gap: 0.75rem;
+  }
+
+  .topbar__title {
+    font-size: var(--text-lg);
+  }
+}
